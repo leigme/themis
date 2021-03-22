@@ -1,3 +1,6 @@
 /.idea/
 **/target/
 **.iml
+/themis-core/target/
+/themis-sample/target/
+/themis-spring-boot-starter/target/
