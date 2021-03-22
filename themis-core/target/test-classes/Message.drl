@@ -1,0 +1,12 @@
+package org.example.themis;
+
+import me.leig.project.themis.bean.Message;
+
+rule "message_1"
+
+when
+   m:Message(status==1)
+then
+   System.out.println("规则配置检测成功: " + m.getMessage());
+   m.setMessage("2002200");
+end
